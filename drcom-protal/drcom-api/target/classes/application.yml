@@ -1,0 +1,14 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: drcom-api
+  datasource:
+    username: drcom
+    password: drcom
+    url: jdbc:oracle:thin:@172.16.10.25:1521:torcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    initialize: true
+  jpa:
+    show-sql: true  
+    database: oracle
